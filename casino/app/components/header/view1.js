@@ -4,7 +4,7 @@ angular.module('casino.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view1', {
-    templateUrl: 'components/view1/view1.html',
+    templateUrl: 'view1/view1.html',
     controller: 'View1Ctrl'
   });
 }])
